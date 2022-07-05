@@ -1,0 +1,88 @@
+body {
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+
+.orange {
+    color: orange;
+}
+
+section {
+    margin-bottom: 5%;
+}
+
+.first-section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width img {
+    /* width: 100%; */
+}
+
+.half-width {
+    width: 50%;
+    margin: 5%;
+}
+
+.extra-part {
+    margin-left: 10%;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+    color: slategray;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, salmon);
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.secend-part {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.third-part {
+    display: flex;
+    margin-top: 0%;
+    padding-top: 0%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.fahim_jannat {
+    box-shadow: 10px 10px 40px gray;
+    padding: 2%;
+    border-radius: 10px;
+    border-left: 10px solid blue;
+}
+
+#end_love {
+    border-left: 10px solid orangered;
+}
+
+footer {
+    text-align: right;
+}
